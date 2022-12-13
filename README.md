@@ -10,7 +10,7 @@ Implement in C++ the given container (ADT) using a given representation and data
 
 ***ADT Matrix*** - represented as a sparse matrix where **<line, column, value> triplets** (value != 0) are memorized. The elements are stored in a binary search tree with linked representation with dynamic allocation.
 
-## ADT Set represented on Hashtable with open adressing and double hashing
+## ADT Set represented on Hashtable
 
 ***ADT Set*** - implemented using a hashtable with open adressing and double hashing as collision resolution. The hashtable is dynamic: set a threshold for α and resize and rehash the table when the actual load factor is higher than α.\
 **Note:** The capacity of the set is always a prime number in order to reduce the number of collisions!
